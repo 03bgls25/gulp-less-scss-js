@@ -1,0 +1,16 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 45px auto;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: 25px 50px 50px 50px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxlc3MubGVzcyIsImxlc3MuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksK0JBQUE7VUFBQSx1QkFBQTtDQ0NIO0FEQ0Q7RUFDSSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLHVEQUFBO1VBQUEsK0NBQUE7RUFDQSw2QkFBQTtDQ0NIIiwiZmlsZSI6Imxlc3MuY3NzIn0= */
+
+/*# sourceMappingURL=less.css.map */

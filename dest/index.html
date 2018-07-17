@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GulpJS | Task Runner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Poppins:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/less.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/scss.css" />
+
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            GulpJS
+        </h1>
+        <p>
+            Automate your SCSS/LESS task and bundle your JS scripts with GulpJS.
+        </p>
+        <h2>Step 1: Install Node.js</h2>
+        <p>
+            We need Node.js to run Gulp. Node.js can be download from <a href="https://nodejs.org/en/">https://nodejs.org/en/</a>.
+        </p>
+        <p>
+            Open the command prompt in your system and enter following command.
+        </p>
+        <code>
+            node -v
+        </code>
+        <p>
+            This will display the installed Node.js version.
+        </p>
+        <code>
+            npm -v
+        </code>
+        <p>
+            The version of npm which is used to install modules.
+        </p>
+        <h2>Step 2:  Setup you Gulp Project with npm packages</h2>
+        <p>
+            When you’re done with installing Node, Download Project from GitHub or clone project to your machine.
+        </p>
+        <code>
+            git clone https://github.com/03bgls25/gulpjs-scss-less-js.git
+        </code>
+        <p>
+            Now install npm packages listed on package.json file by using following command in the command prompt. Adding “–g” flag ensure that the Gulp is globally available for any project.
+        </p>
+        <code>
+            npm install
+        </code>
+        <h2>Step 3: Configure you Gulp Project</h2>
+        <p>
+            Open <em>gulpfile.js file.</em> Then you can configure you project directory of source and destination path by changing <em>var config</em>.
+            <pre>
+                var config = {
+                    paths: {
+                        src: {
+                            scss: './src/scss/',
+                            less: './src/less/',
+                            scripts: './src/scripts/',
+                        },
+                        dest: './dest/',
+                    },
+                    serve: {
+                        proxy: '',
+                        server: './dest/'
+                    }
+                };                
+            </pre>
+        </p>
+        <h2>Step 4: Run Gulp task</h2>
+        <p>You can run your Gulp project by entering following command</p>
+        <code>gulp</code>
+        <br />
+        <code>gulp serve</code>
+    </div>
+</body>
+</html>

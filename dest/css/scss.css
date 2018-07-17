@@ -1,0 +1,35 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  background: #CF4647; }
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px; }
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif; }
+
+h1 {
+  color: #CF4647;
+  font-weight: 700; }
+
+h2 {
+  font-weight: 600; }
+
+h3 {
+  font-weight: 400; }
+
+h4 {
+  font-weight: 300; }
+
+code {
+  background: #eee;
+  width: 100%;
+  display: block;
+  padding: 15px;
+  border-radius: 4px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3Muc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1DQUFrQztFQUNsQyxnQkFBZTtFQUNmLG9CQUFtQixFQUN0Qjs7QUFDRDtFQUNJLG1DQUFrQztFQUNsQyxnQkFBZSxFQUNsQjs7QUFDRDtFQUNJLG1DQUFrQyxFQUNyQzs7QUFDRDtFQUNJLGVBQWM7RUFDZCxpQkFBZ0IsRUFDbkI7O0FBQ0Q7RUFDSSxpQkFBZ0IsRUFDbkI7O0FBQ0Q7RUFDSSxpQkFBZ0IsRUFDbkI7O0FBQ0Q7RUFDSSxpQkFBZ0IsRUFDbkI7O0FBQ0Q7RUFDSSxpQkFBZ0I7RUFDaEIsWUFBVztFQUNYLGVBQWM7RUFDZCxjQUFhO0VBQ2IsbUJBQWtCLEVBQ3JCIiwiZmlsZSI6InNjc3MuY3NzIn0= */
+
+/*# sourceMappingURL=scss.css.map */
