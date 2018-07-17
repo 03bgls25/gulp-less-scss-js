@@ -19,11 +19,11 @@ var config = {
             less: './src/less/',
             scripts: './src/scripts/',
         },
-        dest: './dest/',
+        dest: './docs/',
     },
     serve: {
         proxy: '',
-        server: './dest/'
+        server: './docs/'
     }
 };
 
